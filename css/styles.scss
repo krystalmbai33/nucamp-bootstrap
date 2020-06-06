@@ -1,3 +1,4 @@
+$color-teal: #17A2B8;
 $color-primary: #3046C5;
 $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
@@ -28,7 +29,7 @@ header {
 }
 
 .site-footer {
-    background-image: linear-gradient($color $color-pale, white);
+    background-image: linear-gradient($color-pale, white);
     padding: 20px 0;
 }
 
@@ -61,4 +62,16 @@ header {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+button {
+    #reserveButton {
+        background-color: $color-teal;
+        color: white;
+    }
+
+    #loginButton {
+        background-color: $color-mid;
+        color: white;
+    }
 }
